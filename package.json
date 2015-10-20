@@ -1,0 +1,37 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "./node_modules/tsd/build/cli.js reinstall && ./node_modules/bower/bin/bower install && ./node_modules/gulp/bin/gulp.js",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "material-ui": "^0.13.1",
+    "react": "^0.14.0",
+    "react-addons-create-fragment": "^0.14.0",
+    "react-addons-pure-render-mixin": "^0.14.0",
+    "react-addons-transition-group": "^0.14.0",
+    "react-addons-update": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-tap-event-plugin": "^0.2.1"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^0.14.0",
+    "bower": "^1.6.5",
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.9.2",
+    "tsd": "^0.6.5",
+    "typescript": "microsoft/TypeScript",
+    "webpack": "^1.12.2"
+  }
+}

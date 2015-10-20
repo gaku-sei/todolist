@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "noImplicitAny": true
+  },
+  "files": [
+    "./typings/tsd.d.ts"
+  ]
+}

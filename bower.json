@@ -1,0 +1,21 @@
+{
+  "name": "todo",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "kcombriat <kcombriat.soat@tf1.fr>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}
